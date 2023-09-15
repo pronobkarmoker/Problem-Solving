@@ -1,7 +1,6 @@
 package LeetCode;
 
 public class TwoSum {
-    class Solution {
     /**
      * @param nums
      * @param target
@@ -17,6 +16,4 @@ public class TwoSum {
             }
         }
     }
-    }
-
 }

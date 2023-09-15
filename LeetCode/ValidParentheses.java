@@ -18,7 +18,6 @@ class ValidParentheses {
 
     public boolean isValid(String s) {
         String open = "({[";
-        String close = "]})";
         Stack<Character> st = new Stack<>();
 
         for (char ch : s.toCharArray()) {
